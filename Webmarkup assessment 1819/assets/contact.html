@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="descripiton" content="we are entertainment mobile games board games console games">
+		<title>Contact page</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/style.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body class="contact-form">
+		<header>
+			<h1 class="name">COMPANY NAME</h1>
+			<img src="img/companylogoBG.jpg" alt="companylogo"/> 
+		</header>
+		<nav>
+			<a href = "product.html">PRODUCTS</a> 
+			<a href = "http://www.blogger.com">BLOG</a> 
+			<a href = "contact.html">CONTACT</a> 
+		</nav>
+<form action="nowhere.php" method="post">
+	<fieldset id="border">
+		<label>Select topic</label>
+		<select>
+			<option value="general">General inquiries</option>
+			<option value="press">Press relations</option>
+			<option value="recruitement">Recruitement</option>
+		</select>
+	</fieldset>
+	<fieldset class="contactFormFieldset">
+		<input
+				type="text"
+				name="contactFormName"
+				placeholder="Your name.."
+		/>
+	</fieldset>
+	<fieldset class="contactFormFieldset">
+		<input
+				type="email"
+				name="email"
+				placeholder="Your email.."
+		/>
+	</fieldset>
+	<fieldset>
+		<textarea
+				rows="7"
+				cols="40"
+				name="message"
+				placeholder="Write something.."
+		></textarea>
+	</fieldset>
+		<input
+			type="submit"
+			value="Submit"
+			id="sendBtn"
+		/>
+</form>
+<footer>
+&copy; 2018 - Michael Munatsi - Inholland 
+</footer>
+</body>
+</html>
