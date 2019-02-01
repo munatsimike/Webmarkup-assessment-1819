@@ -14,7 +14,7 @@ html
 /*body properties*/
 body	
 {	
-	background: url('../img/background.png') center center fixed; 
+	background: url('../img/background.jpeg') center center fixed; 
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color:(0,0,0,0,1);
@@ -34,7 +34,7 @@ body
 header	
 {
 	font-size: 3em;
-	background:url('../img/companylogoBG.jpeg') center center;	/*background image*/
+	background:url('../img/companylogoBG.jpg') center center;	/*background image*/
 	background-size: cover;
 	text-align: center;
 	color: #FFF;
