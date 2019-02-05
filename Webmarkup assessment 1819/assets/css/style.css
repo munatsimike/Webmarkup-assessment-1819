@@ -1,0 +1,162 @@
+*	{
+	boxing-sizing: border-box;
+	}
+
+header
+{
+	position: relative;
+	text-align:center;
+	color:#fff;
+}
+	
+.name	{
+	position: absolute;
+	color: #FFF;
+	top: 50%
+	left: 50%
+	transform: translate(-50%,-50%);
+	font-size: 2.6em;
+	font-family: "Arial Black", Gadget, sans-serif;
+	}
+.catalog{
+	background-color: #2699FB;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.9em;
+	padding: .1em;
+	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	}
+
+body	{
+	background-image:url('../img/background.JPEG');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: .5em;
+	max-width: 960px;
+	margin:0 auto 30px;
+	}
+.contact-form	{
+		background-image: none;	/*remove background image on the contact form */
+		}
+a	{
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+nav	{
+	background: #707070;
+	padding: 1%;
+	margin: 0.1%;
+	text-align: center;
+	word-spacing: 10px;
+	font-size: 1.4em;
+	}
+.flex	{
+	display: flex;
+	}
+	}
+.flex-item	{
+		width:306px;
+		height: 200px;
+		margins:.5em;
+		}
+footer	{
+	color: #FFFFFF;
+	background: #000000;
+	padding: .5em;
+	text-align: center;
+	}
+form	{
+	background:#F5F5F5;
+	border:1px solid #000000;
+	padding: 2em;
+	}
+label	{
+	display: block;
+	padding: .5em;
+	width: 96%;
+	color:#AAAAAA;
+	}
+select	{
+	padding: .5em;
+	width: 100%;
+	background:#FFFFFF;
+	}
+#border	{
+	border: 1px solid #000000;
+	background:#FFFFFF;
+	width: 94%;
+	margin-left: 13px;
+	margin-bottom: .7em;
+	margin-top: 2em;
+	}
+fieldset{
+	border: 0;
+	}
+input	
+,textarea{
+	width: 98%;
+	padding: .5em;
+	}
+	
+#sendBtn{
+	border: 0;
+	color: #FFFFFF;
+	background-color: #2699FB;
+	width: 96.5%;
+	cursor: pointer;
+	font-size: 1.5em;
+	margin-bottom: -1em;
+	margin-left: 15px;
+	}
+.flex-container {
+		display: flex;
+		flex-flow: column nowrap;
+		flex-basis: auto;
+		align-items: center;
+		color: #FFFFFF;
+		}
+	    
+.index-image	{
+		width: 450px;
+	 	}
+.img-heading	{
+		background-color: #2699FB;
+		font-size: 1.5em;
+		width:450px;
+		font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		}
+.index-footer	{
+		width:434px;
+		align-items: center;
+		margin-top: 1px;
+		margin: 1px auto;
+		}
+.nav		{
+		width:432px;
+		align-items: center;
+		margin-top: 1px;
+		margin: 1px auto;
+		}
+.index-logo	{
+		width: 452px;
+		margin: 0 auto;
+		}
+.index-name	{
+		position: absolute;
+		color: #FFFFFF;
+		float: left;
+		margin-left: 18%;
+		font-size: 2.6em;
+		font-family: "Arial Black", Gadget, sans-serif;
+		} 
+h3,h2		{
+		margin: 0px 0px 0px 0px;
+		display: block;
+		margin-left: 120px;
+   		margin-right: 120px;
+		text-align: center;
+		}		
+img		{
+	
+		width: 100%;
+		}

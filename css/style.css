@@ -18,7 +18,7 @@ body
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color:(0,0,0,0,1);
-	max-width: 60em;
+	max-width: 50em;
 	margin: 0 auto;
 }
 	@media screen and (max-width: 60em)
@@ -67,18 +67,19 @@ nav
 	
 }
 a:active
-	{
+{
 	color: #FF00FF; 	
-	}
+}
 a:visited
-	{
+{
 	color: #FFFFFF; 
-	}
+}
 
 a:hover
 {
 	color: #0000FF;		 
 }
+
 /*navigation menu hyper links*/
 ul,a,li
 	{
@@ -115,7 +116,7 @@ ul,a,li
 /*index page flex box container*/
 .flex-container2
 {
-	height: 25em;
+	height: 32em;
 	position: relative;
 	margin: 0;
 	overflow:hidden;
@@ -126,10 +127,8 @@ ul,a,li
 {
 	width: 100%;
 	margin :0;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
+	height: 100%;
+	justify-content:center;
 	
 }
 /* index page headings*/
@@ -168,7 +167,7 @@ ul,a,li
 .product-page article
 {
 background-color: #f1f1f1;
-width: 19.4em;
+width: 24.3em;
 margin:0.2em;
 line-height:15em;
 }
@@ -177,7 +176,7 @@ line-height:15em;
 .product-page p
 {
 	width:100%;
-	height: 28%;
+	height: 90%;
 	position:relative;
 	overflow: hidden;
 }
